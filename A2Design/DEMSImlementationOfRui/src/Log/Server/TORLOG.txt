@@ -1,0 +1,222 @@
+Date: 2019-07-06 19:08:42 | Parameter:  managerID: TORM6785 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWE110619 : 1; OTWE080619 : 1;MTLA090619 : 2;
+Date: 2019-07-06 19:09:30 | Parameter:  managerID: TORM6785 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLA080619 : 2;
+Date: 2019-07-06 19:09:37 | Parameter:  managerID: TORM6785 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLE230719 : 1;
+Date: 2019-07-06 19:10:15 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 19:10:15 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:10:30 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:10:30 | Parameter:  customerID: TORC1234 eventType: Conference eventID: MTLA090619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:10:50 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:10:50 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:11:02 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:12:07 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:12:07 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: MTLE230719 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:12:32 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:12:32 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORE050619 | Action: C_BOOKEVENT
+Action execution: Failed | Response: -1
+Date: 2019-07-06 19:16:49 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:22:33 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:22:33 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:22:35 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-06 19:23:40 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 19:23:40 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE110619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:23:42 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-06 19:24:36 | Parameter:  managerID: TORM6785 eventType: Conference eventID: TORE210619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-06 19:24:41 | Parameter:  managerID: TORM6785 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: TORE210619 : 2; OTWE110619 : 0; OTWE080619 : 1;MTLA090619 : 2;
+Date: 2019-07-06 19:25:10 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-06 19:25:10 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORE210619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:25:11 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE210619;,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-06 19:25:50 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-06 19:25:50 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 19:26:18 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars MTLE230719;,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:45:40 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-09 15:45:40 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-09 15:45:50 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:45:50 | Parameter:  customerID: TORC1234 eventType: Conference eventID: MTLA090619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-09 15:46:00 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:46:00 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-09 15:46:03 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:47:43 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:47:43 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORE050619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -2
+Date: 2019-07-09 15:48:00 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:48:29 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:48:29 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORE050619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -3
+Date: 2019-07-09 15:49:47 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:49:47 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLE230719 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -3
+Date: 2019-07-09 15:50:00 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:50:37 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:50:37 | Parameter:  customerID: TORC1234 eventType: Conference eventID: MTLA090619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -6
+Date: 2019-07-09 15:51:07 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:51:42 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:51:42 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: MTLE230719 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -2
+Date: 2019-07-09 15:51:48 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:53:13 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:53:13 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: MTLE230719 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-09 15:53:50 | Parameter:  managerID: TORM6785 eventType: Conference eventID: TORE050619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:54:04 | Parameter:  managerID: TORM6785 eventType: Conference eventID: TORA080619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:54:17 | Parameter:  managerID: TORM6785 eventType: Seminars eventID: TORA110619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:54:26 | Parameter:  managerID: TORM6785 eventType: Trade Shows eventID: TORM080619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:55:24 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:55:24 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORE050619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-09 15:55:33 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:55:33 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: TORA110619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-09 15:55:35 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:58:09 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:58:09 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE110619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -7
+Date: 2019-07-09 15:58:36 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 15:58:36 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORA080619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -6
+Date: 2019-07-09 16:00:04 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 16:00:24 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences OTWE080619;,TradeShows ,
+Date: 2019-07-09 16:00:24 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: TORM080619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 16:00:30 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-09 16:01:11 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences MTLA090619;,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-09 16:01:11 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE110619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 16:01:15 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-09 16:02:03 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;,TradeShows ,
+Date: 2019-07-09 16:02:03 | Parameter:  customerID: TORC1234 eventType: Conference eventID: OTWE080619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 16:02:04 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 16:02:47 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 16:02:47 | Parameter:  customerID: TORC1234 eventType: Conference eventID: MTLA090619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -7
+Date: 2019-07-09 17:16:07 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:17:16 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORE050619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:17:16 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA230719 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 17:17:19 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:18:19 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA080619;MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:18:19 | Parameter:  customerID: TORC1234 eventType: Conference eventID: TORA080619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 17:18:23 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORA080619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:18:45 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences TORA080619;,TradeShows TORM080619;,Seminars ,Conferences ,TradeShows MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:18:45 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: TORA110619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-09 17:18:48 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORA080619;,TradeShows ,Seminars ,Conferences ,TradeShows MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:19:49 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars TORA110619;,Conferences TORA080619;,TradeShows ,Seminars ,Conferences ,TradeShows MTLA230719;,Seminars ,Conferences OTWE110619;OTWE080619;,TradeShows ,
+Date: 2019-07-09 17:19:49 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: TORA110619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -6
+Date: 2019-07-16 11:59:00 | Parameter:  managerID: TORM3456 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: 
+Date: 2019-07-16 11:59:06 | Parameter:  managerID: TORM3456 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: 
+Date: 2019-07-16 11:59:12 | Parameter:  managerID: TORM3456 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: 
+Date: 2019-07-16 11:59:39 | Parameter:  managerID: TORM3456 eventType: Conference eventID: TORE080619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:00:00 | Parameter:  managerID: TORM3456 eventType: Seminars eventID: TORE110619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:09:45 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:09:45 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:11:12 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:11:12 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: OTWA250619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:12:48 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:12:48 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: TORE080619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -2
+Date: 2019-07-16 12:53:02 | Parameter:  managerID: TORM3456 eventType: Conference eventID: TORE080619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:53:51 | Parameter:  managerID: TORM3456 eventType: Seminars eventID: TORE110619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:58:20 | Parameter:  managerID: TORM3456 eventType: Conference eventID: TORE080619 bookingCapacity: 2 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:59:43 | Parameter:  managerID: TORM3456 eventType: Seminars eventID: TORE110619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 13:07:30 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:07:30 | Parameter:  customerID: TORC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:08:16 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:08:16 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: OTWA250619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 13:09:58 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:09:58 | Parameter:  customerID: TORC1234 eventType: Seminars eventID: TORE080619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -2
+Date: 2019-07-16 13:10:15 | Parameter:  customerID: TORC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows MTLA080619;,Seminars ,Conferences ,TradeShows ,

@@ -1,0 +1,730 @@
+Date: 2019-07-06 19:01:19 | Parameter:  managerID: OTWM0001 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLA090619 : 1;
+Date: 2019-07-06 19:03:58 | Parameter:  managerID: OTWM4560 eventType: Conference eventID: OTWE080619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-06 19:04:16 | Parameter:  managerID: OTWM4560 eventType: Conference eventID: OTWE110619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-06 19:14:54 | Parameter:  customerID: OTWC7890 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 19:14:54 | Parameter:  customerID: OTWC7890 eventType: Conference eventID: OTWE080619 | Action: C_BOOKEVENT
+Action execution: Failed | Response: -3
+Date: 2019-07-06 19:16:55 | Parameter:  customerID: OTWC7890 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 19:18:15 | Parameter:  managerID: OTWM4560 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWE110619 : 1; OTWE080619 : 0; MTLA090619 : 2;
+Date: 2019-07-06 19:19:06 | Parameter:  managerID: OTWM4560 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: 
+Date: 2019-07-06 19:19:11 | Parameter:  managerID: OTWM4560 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLE230719 : 0;
+Date: 2019-07-06 22:50:56 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:51:48 | Parameter:  managerID: OTWM0001 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: TORM220619 : 2; TORM230619 : 3; TORM240619 : 3;
+Date: 2019-07-06 22:51:54 | Parameter:  managerID: OTWM0001 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWM180619 : 4; 
+Date: 2019-07-06 22:53:26 | Parameter:  managerID: OTWM0001 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: TORM220619 : 2; TORM230619 : 3; TORM240619 : 3;
+Date: 2019-07-06 22:53:29 | Parameter:  managerID: OTWM0001 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWM180619 : 4; 
+Date: 2019-07-06 22:53:34 | Parameter:  managerID: OTWM0001 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: TORE150619 : 5;
+Date: 2019-07-06 22:54:09 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:54:09 | Parameter:  customerID: OTWC0001 eventType: Conference eventID: TORM220619 | Action: C_BOOKEVENT
+Action execution: Failed | Response: -1
+Date: 2019-07-06 22:55:14 | Parameter:  managerID: OTWM0001 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLM240619 : 3; MTLM220619 : 2; MTLM230619 : 3;
+Date: 2019-07-06 22:55:44 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:55:44 | Parameter:  customerID: OTWC0001 eventType: Conference eventID: MTLM240619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:56:06 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:56:06 | Parameter:  customerID: OTWC0001 eventType: Conference eventID: MTLM220619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:56:16 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:56:16 | Parameter:  customerID: OTWC0001 eventType: Conference eventID: MTLM230619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:56:18 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:56:54 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:56:54 | Parameter:  customerID: OTWC0001 eventType: Seminars eventID: OTWM180619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:56:56 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:57:24 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:57:24 | Parameter:  customerID: OTWC0001 eventType: Trade Shows eventID: TORE150619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:57:26 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows TORE150619;,
+Date: 2019-07-06 22:58:27 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows TORE150619;,
+Date: 2019-07-06 22:58:27 | Parameter:  customerID: OTWC0001 eventType: Conference eventID: MTLM240619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:58:28 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:58:49 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:58:49 | Parameter:  customerID: OTWC0001 eventType: Seminars eventID: OTWM180619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-06 22:58:50 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:59:09 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:59:09 | Parameter:  customerID: OTWC0001 eventType: Trade Shows eventID: TORE150619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -7
+Date: 2019-07-06 22:59:17 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:59:59 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM240619;MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-06 22:59:59 | Parameter:  customerID: OTWC0001 eventType: Trade Shows eventID: TORE150619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-06 23:00:01 | Parameter:  customerID: OTWC0001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWM180619;,Conferences ,TradeShows ,Seminars ,Conferences MTLM220619;MTLM230619;,TradeShows ,Seminars ,Conferences ,TradeShows TORE150619;,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1004 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1004 eventType: Conference eventID: MTLM220620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1004 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1004 eventType: Conference eventID: MTLM230620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:48:19 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1004 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1004 eventType: Conference eventID: MTLM220620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:02 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:18 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 17:49:25 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:11:39 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:16 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:13:17 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:17 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:17 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:54 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:54 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:13:55 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:13:56 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:56 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:13:56 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:01 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-08 23:15:03 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-08 23:15:04 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:04 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-08 23:15:04 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-09 15:42:36 | Parameter:  managerID: OTWM4560 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: 
+Date: 2019-07-09 15:43:15 | Parameter:  managerID: OTWM4560 eventType: Conference eventID: OTWE080619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:43:39 | Parameter:  managerID: OTWM4560 eventType: Conference eventID: OTWE110619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-09 15:52:35 | Parameter:  customerID: OTWC7890 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-09 15:52:35 | Parameter:  customerID: OTWC7890 eventType: Seminars eventID: MTLE230719 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:02:06 | Parameter:  managerID: OTWM9000 eventType: Conference eventID: OTWA190619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:02:23 | Parameter:  managerID: OTWM9000 eventType: Seminars eventID: OTWA250619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 12:02:52 | Parameter:  managerID: OTWM6785 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWA190619 : 1; MTLA090619 : 2;TORE080619 : 2;
+Date: 2019-07-16 12:03:22 | Parameter:  managerID: OTWM6785 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWA250619 : 1; TORE110619 : 1;
+Date: 2019-07-16 12:03:42 | Parameter:  managerID: OTWM6785 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLA080619 : 1;
+Date: 2019-07-16 12:04:17 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:04:17 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: TORE080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:04:41 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:04:41 | Parameter:  customerID: OTWC1234 eventType: Seminars eventID: TORE110619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:04:52 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:04:52 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: MTLA090619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:05:05 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:05:05 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: OTWA190619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:06:07 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:06:07 | Parameter:  customerID: OTWC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -7
+Date: 2019-07-16 12:06:43 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:06:43 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: OTWA250619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -3
+Date: 2019-07-16 12:07:20 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 12:07:20 | Parameter:  customerID: OTWC1234 eventType: Seminars eventID: OTWA250619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:07:23 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWA250619;,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:06 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:19:07 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:19:08 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:08 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:19:08 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:12 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:13 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:25:14 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:14 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:14 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:49 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:25:50 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:25:51 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:51 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:25:51 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:23 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:24 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:24 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:24 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:34 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:35 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:35 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:35 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:44 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:45 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:45 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:45 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:56 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:57 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:57 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:57 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 12:26:59 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 12:27:00 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:27:00 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 12:27:00 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:01:30 | Parameter:  managerID: OTWM9000 eventType: Conference eventID: OTWA190619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 13:02:31 | Parameter:  managerID: OTWM9000 eventType: Seminars eventID: OTWA250619 bookingCapacity: 1 | Action: ADDEVENT
+Action execution: Completed | Response: true
+Date: 2019-07-16 13:03:12 | Parameter:  managerID: OTWM6785 eventType: Conference | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWA190619 : 1; MTLA090619 : 2;TORE080619 : 2;
+Date: 2019-07-16 13:03:34 | Parameter:  managerID: OTWM6785 eventType: Seminars | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: OTWA250619 : 1; TORE110619 : 1;
+Date: 2019-07-16 13:03:46 | Parameter:  managerID: OTWM6785 eventType: Trade Shows | Action: LISTEVENTAVAILABILITY
+Action execution: Completed | Response: MTLA080619 : 1;
+Date: 2019-07-16 13:04:18 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:04:18 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: TORE080619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:04:32 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 13:04:32 | Parameter:  customerID: OTWC1234 eventType: Seminars eventID: TORE110619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:04:48 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 13:04:48 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: MTLA090619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:05:07 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 13:05:07 | Parameter:  customerID: OTWC1234 eventType: Conference eventID: OTWA190619 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:05:54 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 13:05:54 | Parameter:  customerID: OTWC1234 eventType: Trade Shows eventID: MTLA080619 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -7
+Date: 2019-07-16 13:06:21 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences TORE080619;,TradeShows ,
+Date: 2019-07-16 13:06:21 | Parameter:  customerID: OTWC1234 eventType: Seminars eventID: OTWA250619 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:06:30 | Parameter:  customerID: OTWC1234 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars OTWA250619;,Conferences OTWA190619;,TradeShows ,Seminars ,Conferences MTLA090619;,TradeShows ,Seminars TORE110619;,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM230620 | Action: C_BOOKEVENT
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1003 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1002 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Completed | Response: 0
+Date: 2019-07-16 13:15:09 | Parameter:  customerID: OTWC1001 eventType: Conference eventID: MTLM220620 | Action: C_SWAPEVENTS
+Action execution: Failed | Response: -5
+Date: 2019-07-16 13:15:10 | Parameter:  customerID: OTWC1001 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:10 | Parameter:  customerID: OTWC1002 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM220620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
+Date: 2019-07-16 13:15:10 | Parameter:  customerID: OTWC1003 | Action: M_GETBOOKINGSCHEDULE
+Action execution: Completed | Response: Seminars ,Conferences ,TradeShows ,Seminars ,Conferences MTLM230620;,TradeShows ,Seminars ,Conferences ,TradeShows ,
