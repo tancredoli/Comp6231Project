@@ -1,0 +1,25 @@
+module CorbaApp
+{
+   interface DEMSInterf{
+	
+	    boolean manLogin(in string manID);
+		
+		boolean cusLogin(in string cusID);
+		
+		boolean addEvent(in string eventID, in string eventType, in string manID, in long capacity);
+		
+		boolean removeEvent(in string eventID,in string eventType, in string manID);
+		
+	    string listEventA(in string manID,in string eventType);
+		
+		boolean bookEvent(in string custID,in string eventID, in string eventType);
+		
+	    boolean cancelEvent(in string custID,in string eventID,in string eventType);
+		
+	    string getBookingSchedule(in string custID);
+	    
+	    boolean swapEvent(in string cusID, in string newEventID,in string newEventType,in string oldEventID,
+			in string oldEventType);
+	
+	};
+};
