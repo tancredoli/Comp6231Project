@@ -1,0 +1,13 @@
+module FEInterface
+{
+    interface CommonInterface
+    {
+    boolean addEvent(in string userID,in string eventID,in long eventType,in long bookingCapacity);
+    boolean removeEvent(in string userID,in string eventID,in long eventType);
+    string listEventAvailability(in string userID,in long eventType);
+    long bookEvent(in string customerID,in string eventID,in long eventType);
+    string getBookingSchedule(in string customerID);
+    long cancelEvent(in string customerID,in string eventID,in long eventType);
+    long swapEvent(in string customerID,in string newEventID,in long newEventType,in string oldEventID,in long oldEventType);
+    };
+};
