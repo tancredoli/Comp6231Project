@@ -30,7 +30,6 @@ public class FEServer {
             FEImplementation feObj = new FEImplementation();
             feObj.setOrb(orb);
 
-
             org.omg.CORBA.Object ref = rootpoa.servant_to_reference(feObj);
 
             CommonInterface href = CommonInterfaceHelper.narrow(ref);

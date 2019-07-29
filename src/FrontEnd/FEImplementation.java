@@ -1,6 +1,7 @@
 package FrontEnd;
 
 import FEInterface.CommonInterfacePOA;
+import Utility.Constants;
 import Utility.Port;
 import org.omg.CORBA.ORB;
 
@@ -9,6 +10,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
+import java.util.ArrayList;
 
 /**
  * @Author: Rui
@@ -19,7 +21,8 @@ import java.net.SocketException;
 public class FEImplementation extends CommonInterfacePOA {
 
     private static final String isTrue = "successfully";
-    private static final String separator = ":";
+    private static final String separator1 = ":";
+    private static final String separator = ",";
     private ORB orb;
 
     public void setOrb(ORB orb) {
@@ -31,7 +34,9 @@ public class FEImplementation extends CommonInterfacePOA {
             String userID, String eventID, int eventType,
             int bookingCapacity) {
         StringBuilder sb = new StringBuilder();
-        sb.append("addEvent")
+        String request = sb.append(Port.REPLICA1_IP)
+                .append(separator1)
+                .append("addEvent")
                 .append(separator)
                 .append(userID)
                 .append(separator)
@@ -39,8 +44,8 @@ public class FEImplementation extends CommonInterfacePOA {
                 .append(separator)
                 .append(eventType)
                 .append(separator)
-                .append(bookingCapacity);
-        String rs = sendRequest(Port.SEQUENCER_PORT, sb.toString());
+                .append(bookingCapacity).toString();
+        String rs = sendRequest(Port.SEQUENCER_PORT, request);
         if (rs.contains(isTrue))
             return true;
         else
@@ -79,38 +84,101 @@ public class FEImplementation extends CommonInterfacePOA {
 
     @Override
     public int bookEvent(String customerID, String eventID, int eventType) {
-        return 0;
+        StringBuilder sb = new StringBuilder();
+        sb.append("bookEvent")
+                .append(separator)
+                .append(customerID)
+                .append(separator)
+                .append(eventID)
+                .append(separator)
+                .append(eventType);
+        String rs = sendRequest(Port.SEQUENCER_PORT, sb.toString());
+        if (rs.contains(isTrue))
+            return 0;
+        else if (rs.contains("exit"))
+            return -1;
+        else if (rs.contains("booked this"))
+            return -2;
+        else if (rs.contains("full"))
+            return -3;
+        else
+            return -5;
     }
 
     @Override
     public String getBookingSchedule(String customerID) {
-        return null;
+        StringBuilder sb = new StringBuilder();
+        sb.append("bookEvent")
+                .append(separator)
+                .append(customerID);
+        String rs = sendRequest(Port.SEQUENCER_PORT, sb.toString());
+        return rs;
     }
 
     @Override
     public int cancelEvent(String customerID, String eventID, int eventType) {
-        return 0;
+        StringBuilder sb = new StringBuilder();
+        sb.append("bookEvent")
+                .append(separator)
+                .append(customerID)
+                .append(separator)
+                .append(eventID)
+                .append(separator)
+                .append(eventType);
+        String rs = sendRequest(Port.SEQUENCER_PORT, sb.toString());
+        if (rs.contains(isTrue))
+            return 0;
+        else if (rs.contains("booking_record"))
+            return -1;
+        else
+            return -2;
     }
 
     @Override
     public int swapEvent(
             String customerID, String newEventID, int newEventType,
             String oldEventID, int oldEventType) {
-        return 0;
+        StringBuilder sb = new StringBuilder();
+        sb.append("bookEvent")
+                .append(separator)
+                .append(customerID)
+                .append(separator)
+                .append(newEventID)
+                .append(separator)
+                .append(newEventType)
+                .append(separator)
+                .append(oldEventID)
+                .append(separator)
+                .append(oldEventType);
+        String rs = sendRequest(Port.SEQUENCER_PORT, sb.toString());
+        if (rs.contains(isTrue))
+            return 0;
+        else if (rs.contains("doesn't have booked"))
+            return -2;
+        else if (rs.contains("have already booked"))
+            return -4;
+        else if (rs.contains("booked 3"))
+            return -7;
+        else
+            return -5;
     }
 
 
     private String sendRequest(
             int sequencerPort, String requestStr) {
-        String rs = "";
+
+        ArrayList<String> rsList = new ArrayList<>();
         DatagramSocket aSocket = null;
         try {
-            aSocket = new DatagramSocket(); // reference of the original
+            aSocket = new DatagramSocket(); // reference of the
+            // original
             // socket
-            byte[] message = requestStr.getBytes(); // message to be passed
+            byte[] message = requestStr.getBytes(); // message to
+            // be passed
             // is stored in byte array
 
-            InetAddress aHost = InetAddress.getByName("localhost"); // Host
+            InetAddress aHost = InetAddress.getByName("localhost"); //
+            // Host
             // name is specified and the IP address of server host is
             // calculated using DNS.
 
@@ -120,25 +188,33 @@ public class FEImplementation extends CommonInterfacePOA {
                     sequencerPort); //
             // request
             // packet ready
+            aSocket.setSoTimeout(Constants.FE_TIMEOUT);
             aSocket.send(request); // request sent out
             System.out.println(
                     "Request message sent from the client is : " + new String(
                             request.getData()));
-
-            byte[] buffer = new byte[1000]; // to store the received data, it
+            byte[] buffer = new byte[1000]; // to store the
+            // received data, it
             // will be populated by what receive method returns
-            DatagramPacket reply = new DatagramPacket(buffer,
-                    buffer.length); // reply
-            // packet ready but not populated.
 
-            // Client waits until the reply is
-            // received
-            // -----------------------------------------------------------------------
-            aSocket.receive(reply); // reply received and will populate reply
-            // packet now.
-            rs = new String(reply.getData()); // print reply message
-            // after
-            // converting it to a string from bytes
+
+            while (rsList.size() < Constants.RM_NUM) {
+
+                DatagramPacket reply = new DatagramPacket(buffer,
+                        buffer.length); // reply
+                // packet ready but not populated.
+
+                // Client waits until the reply is
+                // received
+                // -----------------------------------------------------------------------
+                aSocket.receive(reply); // reply received and will
+                // populate reply
+                // packet now.
+                rsList.add(new String(reply.getData()));// print reply
+                // message
+                // after
+                // converting it to a string from bytes
+            }
         } catch (SocketException e) {
             System.out.println("Socket: " + e.getMessage());
         } catch (IOException e) {
@@ -146,12 +222,21 @@ public class FEImplementation extends CommonInterfacePOA {
             System.out.println("IO: " + e.getMessage());
         } finally {
             if (aSocket != null)
-                aSocket.close(); // now all resources used by the socket are
+                aSocket.close(); // now all resources used by the
+            // socket are
             // returned to the OS, so that there is no
-            // resource leakage, therefore, close the socket after it's use
+            // resource leakage, therefore, close the socket after
+            // it's use
             // is completed to release resources.
         }
-        return rs.trim();
+
+
+        return rsList.get(0).trim();
+    }
+
+    String findMajority(ArrayList<String> rsList) {
+        //need implementation
+        return rsList.get(0);
     }
 
 }

@@ -290,22 +290,10 @@ public class Client {
             if (opt.equals("L") || opt.equals("l")) {
                 String rs = "";
                 rs = obj.getBookingSchedule(userID);
-                String[] rsArray = rs.split(",");
-                String[] rsAry = new String[rsArray.length];
-                for (int i = 0; i < rsArray.length; i++) {
-                    String[] temp = rsArray[i].split(" ");
-                    if (temp.length > 1)
-                        rsAry[i] = temp[1];
-                    else
-                        rsAry[i] = "";
-                }
-                customer.updateFromServer(rsAry[0] + rsAry[3] + rsAry[6], 2);
-                customer.updateFromServer(rsAry[1] + rsAry[4] + rsAry[7], 1);
-                customer.updateFromServer(rsAry[2] + rsAry[5] + rsAry[8], 3);
                 clientRecorder.writeLog(clientRecorder.paraConstructor("",
                         userID, 4, "", 0),
                         Action.C_GETBOOKINGSCHEDULE, true, rs);
-                System.out.println(customer.printAll());
+                System.out.println(rs);
                 continue;
             }
         }
@@ -598,22 +586,10 @@ public class Client {
                 Customer customer = new Customer(customerID);
                 String rs = "";
                 rs = obj.getBookingSchedule(customerID);
-                String[] rsArray = rs.split(",");
-                String[] rsAry = new String[rsArray.length];
-                for (int i = 0; i < rsArray.length; i++) {
-                    String[] temp = rsArray[i].split(" ");
-                    if (temp.length > 1)
-                        rsAry[i] = temp[1];
-                    else
-                        rsAry[i] = "";
-                }
-                customer.updateFromServer(rsAry[0] + rsAry[3] + rsAry[6], 2);
-                customer.updateFromServer(rsAry[1] + rsAry[4] + rsAry[7], 1);
-                customer.updateFromServer(rsAry[2] + rsAry[5] + rsAry[8], 3);
                 clientRecorder.writeLog(clientRecorder.paraConstructor(userID,
                         customerID, 4, "", 0),
                         Action.M_GETBOOKINGSCHEDULE, true, rs);
-                System.out.println(customer.printAll());
+                System.out.println(rs);
                 continue;
             }
             if (opt.equals("A") || opt.equals("a")) {
@@ -724,7 +700,7 @@ public class Client {
                     "NameService");
             NamingContextExt ncRef = NamingContextExtHelper.narrow(objRef);
             obj = (CommonInterface) CommonInterfaceHelper.narrow(ncRef.resolve_str(
-                    objName));
+                    "frontend"));
 
         } catch (InvalidName invalidName) {
             invalidName.printStackTrace();
