@@ -96,7 +96,7 @@ public class Server_MTL implements Server_interface, Runnable {
 									s += sendMessageToOtherServer("004", config_MTL.SERVER_PORT_OTW, oldEventID,
 											oldEventType);
 								}
-								s = customerID + " swap event: (new) " + getEventName(newEventType) + " " + newEventID
+								s = customerID + " swap event (new) " + getEventName(newEventType) + " " + newEventID
 										+ " (old) " + getEventName(oldEventType) + " " + oldEventID + " successfully!";
 							} else {
 								s += " " + customerID + " Swap failed! ";
@@ -188,7 +188,7 @@ public class Server_MTL implements Server_interface, Runnable {
 		}
 
 		if (s.contains("successfully")) {
-			s = "Remove Event Record: " + getEventName(eventType) + " " + eventID + " successfully!";
+			s = "Remove Event Record " + getEventName(eventType) + " " + eventID + " successfully!";
 			config_MTL.LOGGER.info(managerId + " remove Event Record: " + getEventName(eventType) + " "
 					+ eventID + ". Request successfully completed. " + " Server response: " + s);
 		} else {
@@ -639,7 +639,7 @@ public class Server_MTL implements Server_interface, Runnable {
 				String c_id6 = new String(request.getData()).trim().substring(3, 11);
 				String e_id6 = new String(request.getData()).trim().substring(11, 21);
 				String e_type6 = new String(request.getData()).trim().substring(21);
-				config_MTL.LOGGER.info("Request code: " + requestcode + ", " + "Book Event: " + c_id6 + " "
+				config_MTL.LOGGER.info("Request code: " + requestcode + ", " + "Book Event " + c_id6 + " "
 						+ getEventName(e_type6) + " " + e_id6);
 				result = bookLocalEvent(c_id6, e_id6, e_type6);
 				break;

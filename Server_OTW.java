@@ -89,7 +89,7 @@ public class Server_OTW implements Server_interface, Runnable {
 								// bookRecord.
 								s += sendMessageToOtherServer("004", config_OTW.SERVER_PORT_MTL, oldEventID, oldEventType);
 							} 		
-							s = customerID + " swap event: (new) " + getEventName(newEventType) + " " + newEventID
+							s = customerID + " swap event (new) " + getEventName(newEventType) + " " + newEventID
 									 + " (old) " + getEventName(oldEventType) + " " + oldEventID + " successfully!";
 						}else {
 							s += " " + customerID + " Swap failed! ";
@@ -178,7 +178,7 @@ public class Server_OTW implements Server_interface, Runnable {
 		}
 
 		if (s.contains("successfully")) {
-			s = "Remove Event Record: " + getEventName(eventType) + " " + eventID + " successfully!";
+			s = "Remove Event Record " + getEventName(eventType) + " " + eventID + " successfully!";
 			config_OTW.LOGGER.info(managerId + " remove Event Record: " + getEventName(eventType) + " "
 					+ eventID + ". Request successfully completed. " + " Server response: " + s);
 		} else {
