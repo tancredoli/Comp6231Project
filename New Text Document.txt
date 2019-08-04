@@ -1,4 +1,4 @@
-listEventAvailability 5:1:MTLA010119 - 2 MTLA010119 - 2 MTLA010119 - 2
+listEventAvailability 5:1:MTLA010119-2 MTLA010119-2 MTLA010119-2
 
 
 
