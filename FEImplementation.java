@@ -23,12 +23,6 @@ import Utility.Constants;
 import Utility.LogRecorder;
 import Utility.Port;
 
-/**
- * @Author: Rui
- * @Description:
- * @Date: Created in 4:03 PM 2019-07-28
- * @Modified by:
- */
 public class FEImplementation extends CommonInterfacePOA {
 
     private static final String isTrue = "successfully";
@@ -42,17 +36,17 @@ public class FEImplementation extends CommonInterfacePOA {
 	    socket = new DatagramSocket();
 	    StringBuilder sb = new StringBuilder();
 	    sb.append("SetCrash:").append(rep_num);
-	    InetAddress address1 = InetAddress.getByName(Port.REPLICA2_IP);
+	    InetAddress address1 = InetAddress.getByName(Port.PORT_NUM.rmHost2);
 	    DatagramPacket packet1 = new DatagramPacket(sb.toString().getBytes(), sb.length(), address1,
-		    Port.REPLICA_NOR_PORT);
-	    System.out.println("Crash demand has been sent to : " + Port.REPLICA1_IP + Constants.separator_comma
-		    + Port.REPLICA_NOR_PORT);
+		    Port.PORT_NUM.rmPort2);
+	    String logStr = "Crash demand has been sent to : " + Port.PORT_NUM.rmHost2 + Constants.separator_comma
+		    + Port.PORT_NUM.rmPort2;
+	    System.out.println(logStr);
+	    feLoger.writeSeqLog(logStr);
 	    socket.send(packet1);
 	} catch (SocketException e) {
-	    // TODO Auto-generated catch block
 	    e.printStackTrace();
 	} catch (IOException e) {
-	    // TODO Auto-generated catch block
 	    e.printStackTrace();
 	} finally {
 	    if (socket != null) {
@@ -508,18 +502,18 @@ public class FEImplementation extends CommonInterfacePOA {
 		logbd.append("Wrong type: Crash");
 	    }
 	    sb.append(Constants.separator_colon).append(num_seq).append(Constants.separator_colon).append(wrong_rep);
-	    InetAddress address1 = InetAddress.getByName(Port.REPLICA1_IP);
-	    InetAddress address2 = InetAddress.getByName(Port.REPLICA2_IP);
-	    InetAddress address3 = InetAddress.getByName(Port.REPLICA3_IP);
-	    InetAddress address4 = InetAddress.getByName(Port.REPLICA4_IP);
+	    InetAddress address1 = InetAddress.getByName(Port.PORT_NUM.rmHost1);
+	    InetAddress address2 = InetAddress.getByName(Port.PORT_NUM.rmHost2);
+	    InetAddress address3 = InetAddress.getByName(Port.PORT_NUM.rmHost3);
+	    InetAddress address4 = InetAddress.getByName(Port.PORT_NUM.rmHost4);
 	    DatagramPacket packet1 = new DatagramPacket(sb.toString().getBytes(), sb.length(), address1,
-		    Port.REPLICA_NOR_PORT);
+		    Port.PORT_NUM.rmPort1);
 	    DatagramPacket packet2 = new DatagramPacket(sb.toString().getBytes(), sb.length(), address2,
-		    Port.REPLICA_NOR_PORT);
+		    Port.PORT_NUM.rmPort2);
 	    DatagramPacket packet3 = new DatagramPacket(sb.toString().getBytes(), sb.length(), address3,
-		    Port.REPLICA_NOR_PORT);
+		    Port.PORT_NUM.rmPort3);
 	    DatagramPacket packet4 = new DatagramPacket(sb.toString().getBytes(), sb.length(), address4,
-		    Port.REPLICA_NOR_PORT);
+		    Port.PORT_NUM.rmPort4);
 
 	    logbd.append("|").append("Wrong Replica:").append(wrong_rep).append("|").append("Wrong Snum:")
 		    .append(num_seq);

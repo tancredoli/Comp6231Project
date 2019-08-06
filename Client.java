@@ -16,12 +16,6 @@ import FEInterface.CommonInterfaceHelper;
 import Utility.Action;
 import Utility.LogRecorder;
 
-/**
- * @Author: Rui
- * @Description:
- * @Date: Created in 4:04 PM 2019-07-28
- * @Modified by:
- */
 public class Client {
 
     public static int checkEventType(String inputType) {
@@ -64,7 +58,8 @@ public class Client {
 	}
 	if (checkID(userID) == 0) {
 	    try {
-		clientRecorder.writeNorLog(clientRecorder.paraConstructor("", userID, 4, "", 0), Action.LOGIN, true, "");
+		clientRecorder.writeNorLog(clientRecorder.paraConstructor("", userID, 4, "", 0), Action.LOGIN, true,
+			"");
 		managerStart(args, userID, sc, clientRecorder);
 	    } catch (IOException e) {
 		e.printStackTrace();
@@ -72,7 +67,8 @@ public class Client {
 	} else if (checkID(userID) == 1) {
 	    try {
 		customerStart(args, userID, sc, clientRecorder);
-		clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, "", 4, "", 0), Action.LOGIN, true, "");
+		clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, "", 4, "", 0), Action.LOGIN, true,
+			"");
 	    } catch (IOException e) {
 		e.printStackTrace();
 	    }
@@ -172,7 +168,8 @@ public class Client {
 
 	    }
 	    if (opt.equals("E") || opt.equals("e")) {
-		clientRecorder.writeNorLog(clientRecorder.paraConstructor("", userID, 4, "", 0), Action.LOGOUT, true, "");
+		clientRecorder.writeNorLog(clientRecorder.paraConstructor("", userID, 4, "", 0), Action.LOGOUT, true,
+			"");
 		System.exit(0);
 	    }
 	    if (opt.equals("B") || opt.equals("b")) {
@@ -375,7 +372,8 @@ public class Client {
 	    }
 
 	    if (opt.equals("E") || opt.equals("e")) {
-		clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, "", 4, "", 0), Action.LOGOUT, true, " ");
+		clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, "", 4, "", 0), Action.LOGOUT, true,
+			" ");
 		System.exit(0);
 	    }
 	    if (opt.equals("B") || opt.equals("b")) {
@@ -453,15 +451,18 @@ public class Client {
 		String eventID = sc.nextLine().toUpperCase();
 		int rs = obj.cancelEvent(customerID, eventID, eventType);
 		if (rs == 0) {
-		    clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
+		    clientRecorder.writeNorLog(
+			    clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
 			    Action.M_CANCELEVENT, true, String.valueOf(rs));
 		    System.out.println("Congratulation, you have " + "successfully canceled " + "this event!");
 		} else if (rs == -1) {
-		    clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
+		    clientRecorder.writeNorLog(
+			    clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
 			    Action.M_CANCELEVENT, false, String.valueOf(rs));
 		    System.out.println("Sorry, the event you canceled " + "doesn't exist.");
 		} else if (rs == -2) {
-		    clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
+		    clientRecorder.writeNorLog(
+			    clientRecorder.paraConstructor(userID, customerID, eventType, eventID, 0),
 			    Action.M_CANCELEVENT, false, String.valueOf(rs));
 		    System.out.println("Sorry, the customer didn't book " + "this event.");
 		}
@@ -507,7 +508,8 @@ public class Client {
 		    continue;
 		}
 		obj.addEvent(userID, eventID, eventType, bookingCapacity);
-		clientRecorder.writeNorLog(clientRecorder.paraConstructor(userID, "", eventType, eventID, bookingCapacity),
+		clientRecorder.writeNorLog(
+			clientRecorder.paraConstructor(userID, "", eventType, eventID, bookingCapacity),
 			Action.ADDEVENT, true, "true");
 		System.out.println("The event has been successfully added!");
 		continue;
